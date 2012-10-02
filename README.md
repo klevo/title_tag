@@ -1,6 +1,6 @@
-# title_tag
+# title_tag for Rails
 
-Set HTML title from within Rails views.
+Set HTML title tag from within Rails views.
 
 ## API
 
