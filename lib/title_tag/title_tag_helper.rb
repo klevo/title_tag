@@ -1,7 +1,7 @@
 module TitleTag
   module TitleTagHelper
     def title_tag global_title
-      options = { do_not_append: false }
+      options = { no_append: false }
       if @_title_options
         options.merge! @_title_options
       end
@@ -9,7 +9,7 @@ module TitleTag
       global_title = h global_title
       title = global_title
 
-      if options[:do_not_append] && content_for?(:title)
+      if options[:no_append] && content_for?(:title)
         title = h content_for(:title)
       elsif content_for?(:title)
         # Combine the global title and title
