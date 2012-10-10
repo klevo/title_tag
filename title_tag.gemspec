@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = TitleTag::VERSION
   s.authors     = ["Robert Starsi"]
   s.email       = ["title_tag@klevo.sk"]
-  s.homepage    = "TODO"
+  s.homepage    = "http://klevo.sk"
   s.summary     = "Set HTML title from within Rails views."
   s.description = "Set HTML title from within Rails views."
 
